@@ -1,0 +1,28 @@
+.box1{
+    padding: 20px;
+    background-color: #ffd900;
+    width: 600px;
+    height: 400px;
+}
+.box2{
+    padding: 20px;
+    background-color: #ffb1c8;
+    width: 400px;
+    height: 300px;
+}
+.highlight-text{
+    color: #ffffff;
+    font-size: 30px;
+}
+.box3{
+    padding: 10px;
+    background-color: #fffb89;
+    width: 100px;
+    height: 360px;
+}
+.box4{
+    padding: 10px;
+    background-color: #9f3e9f;
+    width: 360px;
+    height: 70px;
+}
