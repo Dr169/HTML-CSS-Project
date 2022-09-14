@@ -1,0 +1,240 @@
+html {
+    background-image: linear-gradient(#FC5E55, #FA4083);
+    background-color: #FA4083;
+}
+
+body {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 100px;
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.container {
+    width: 1024px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.logo
+    {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+    text-align: right;
+}
+
+nav a.navButton {
+    margin-left: 30px;
+}
+
+.hero {
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    min-height: 450px;
+    padding-top: 100px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    /* Align Center is added later in the course. */
+    text-align: center; 
+}
+
+.card1 {
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-sizing: border-box;
+}
+
+.card2 {
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-sizing: border-box;
+}
+
+.card3 {
+    min-height: 250px;
+    width: 30%;
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    box-sizing: border-box;
+}
+
+.hero-box1 {
+    flex: 2;
+}
+
+.hero-box2 {
+    flex: 1;
+}
+
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.25rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero-box1 p {
+    padding-right: 100px;
+}
+
+.mybutton {
+    text-decoration: none;
+    background-color: white;
+    color: #FA4083;
+    font-family: 'Playfair Display', serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.hero-box1 a.mybutton {
+    margin-top: 20px;
+}
+
+.mybutton:hover {
+    background-color: rgb(0, 255, 149);
+    transition-duration: 1s;
+
+}
+
+.navButton {
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+}
+
+.navButton a {
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dropdown .navButton {
+    margin-bottom: 8px;
+    min-width: 140px;
+}
+
+.navButton:hover .dropdown {
+    display: block;
+}
+
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.tbox {
+    width: 37%;
+    padding: 50px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 50px;    
+}
+
+.tbox :last-child {
+    font-size: .8em;
+    padding-left: 20px;
+  }
+  
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+}
+
+.cards a {
+    color: white;
+    text-decoration: none;
+}
+
+i {
+    font-size: 80px;
+}
+
+.card1, .card2, .card3 {
+    padding: 30px;
+}
+
+.inputwrapper {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+input[type=text], textarea {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif; 
+    flex: 1;
+	outline: none;
+  }
+
+input[type=checkbox], input[type=radio]  {
+    margin-right: 10px;
+  }
+
+
+
+  
+  

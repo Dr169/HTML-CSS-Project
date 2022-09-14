@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mobile bike repairs anywhere in greater Dublin, Ireland.</title>
+    <link rel="stylesheet" href="cssreset-meyers.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo-roar-bikes.svg" alt="Roar Bike Servicing Logo"></a>
+            </div>
+            <nav>
+                <div class="navButton">
+                    <a href="#">Book Online</a>
+
+                    <div class="dropdown">
+                        <a href="#" class="navButton">Onsite Service</a>
+                        <a href="#" class="navButton">Parts Delivery</a>
+                        <a href="#" class="navButton">Request Callback</a>
+                    </div>
+
+                </div>
+                <div class="navButton">
+                    <a href="#">About</a>
+                </div>
+                <div class="navButton">
+                    <a href="contact-us.html">Contact</a>
+                </div>
+            </nav>
+
+        </header>
+        <div class="main">
+            <h1>Contact us</h1>
+            <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you
+                within a matter of hours to help you.</p>
+            <form action="mail.php" method="post" class="myform">
+
+                <div class="inputwrapper">
+                    <input type="text" id="name" name="name" placeholder="Enter your Name">
+                </div>
+
+                <div class="inputwrapper">
+                    <input type="text" id="email" name="email" placeholder="Enter your email">
+                </div>
+
+                <div class="inputwrapper">
+                    <textarea name="message" id="message" rows="10" maxlength="10" placeholder="Sample"></textarea>
+                </div>
+
+                <div class="inputwrapper">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes-please" checked>
+                    <label for="newsletter">Sign up for our email newsletter</label>
+                </div>
+
+                <p>Preferred contact method</p>
+                <div class="inputwrapper">
+                    <input type="radio" name="contact-pref" id="Phone" value="Phone">
+                    <label for="Phone">Phone</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="contact-pref" id="Email" value="Email">
+                    <label for="Email">Email</label>
+                </div>
+
+
+                <div class="inputwrapper">
+                    <input type="submit" value="Submit" class="mybutton">
+                </div>
+
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>

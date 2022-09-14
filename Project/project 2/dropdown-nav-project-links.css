@@ -1,0 +1,38 @@
+.navButton {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: greenyellow;
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+
+}
+
+/* This class styles the dropdown menu & turns hides it until hover*/
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-left: -10px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+/* This class turns the dropdown menu on during hover*/
+.navButton:hover .dropdown {
+    display: block;
+    position: relative;
+  }
+
+/* This styles the <a> tags & the 'Product' text at the same time */
+/* nav a, nav {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+} */
+

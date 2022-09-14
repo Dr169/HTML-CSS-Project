@@ -1,0 +1,46 @@
+.navButton {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: rgb(255, 47, 109);
+    width: 100px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+
+/* This class styles the dropdown menu & turns hides it until hover*/
+.dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+/* This class turns the dropdown menu on during hover*/
+.navButton:hover .dropdown {
+    display: block;
+  }
+
+/* This styles the text in the navigation*/
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.dropdown-button {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    background-color: rgb(26, 130, 138);
+}
+
+/* Change color of dropdown links on hover & animation */
+.dropdown-button:hover {
+    background-color: rgb(17, 85, 90);
+    transition-duration: 0.5s;
+}
