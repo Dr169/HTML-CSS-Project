@@ -1,0 +1,134 @@
+/* Global Desktop View ********************/
+
+body {
+    background-color: #EBEBEB;
+    font-family: 'Asap', sans-serif;
+    color: white;
+}
+
+
+.container {
+    /* min-height: 500px; */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 130px;
+}
+
+.container-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 95px;
+}
+
+.col {
+    width: 30%;
+    margin-bottom: 40px;
+    background-color: #00F490;
+}
+
+.col img {
+    width: 100%;
+    height: auto;
+  }
+
+.col p {
+    padding: 20px 30px;
+    line-height: 1.25rem;
+}  
+
+.col p::first-line {
+    font-weight: 700;
+}
+
+header {
+    padding-left: 20px;
+    min-height: 95px;
+    background-color: #484848;
+    margin-bottom: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+nav{
+    padding-right: 40px;
+}
+
+
+.navButton {
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-style: solid;
+    border-width: 1px;
+    margin-left: 20px;
+ }
+ 
+.bold {
+    font-weight: 800;
+}
+
+h1{
+    font-size: 1.25rem;
+}
+
+/* Table View ********************/
+
+@media (max-width: 768px) {
+    
+    .col {
+        width: 45%;
+    }
+
+    .navButton {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        border-style: solid;
+        border-width: 1px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+     }
+
+
+}
+
+
+
+
+
+/* Mobile View ********************/
+
+@media (max-width: 400px) {
+
+    .col {
+        width: 100%;
+    }
+
+    .navButton {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        border-style: solid;
+        border-width: 1px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+     }
+
+}
